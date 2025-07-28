@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --FontSizeDefault: 10px;
+    --PrimaryColor: #2940D3;
+    --SecondaryColor: #7C90F1;
+    --neutral-white: #F8FAFC;
+    --Background: #0F172A;
+
+    --font-Inter: "Inter", sans-serif;
+    --font-IbmSerif: "IBM Plex Serif", serif;
+    --font-IbmSans: "IBM Plex Sans KR", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: var(--FontSizeDefault);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
