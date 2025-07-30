@@ -198,4 +198,42 @@ ion-icon {
 /* fin du traitement du banner */
 
 
+/* debut du traitement du footer */
 
+footer {
+    width: 100%;
+    height: 15rem;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+footer .elt {
+    height: 100%;
+    background: transparent;
+    border: .8rem solid var(--neutral-white);
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+    font-family: var(--font-Inter);
+    gap: 2rem;
+    font-weight: 700;
+    color: var(--neutral-white);
+}
+
+footer .elt span {
+    font-size: 8rem;
+    text-wrap: wrap;
+    margin-left: 2rem;
+}
+
+footer .elt p {
+    font-size: 4rem;
+    text-wrap: wrap;
+    text-align: left;
+    
+}
