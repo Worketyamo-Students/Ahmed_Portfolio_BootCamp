@@ -91,5 +91,111 @@ header ul .active {
     background: var(--neutral-white);
     color: var(--PrimaryColor);
 }
-
 /* fin de traitement du header */
+
+
+/* debut de traitement du banner */
+
+.banner {
+    width: 100%;
+    height: 70rem;
+    background: transparent;
+    display: flex;
+}
+
+.banner .banner__box {
+    flex: 1;
+    width: 100%;
+    height: 100%;   
+    display: flex;
+}
+.box {
+    justify-content: center;
+}
+
+.box img {
+    width: 60%;
+}
+
+.ben {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: transparent;
+    padding: 5rem 0;
+}
+
+.ben h2 {
+    color: var(--neutral-white);
+    font-size: 5rem;
+    font-family: var(--font-IbmSans);
+    font-weight: 500;
+}
+
+.ben h1 {
+    color: var(--PrimaryColor);
+    font-size: 10rem;
+    font-family: var(--font-IbmSerif);
+    font-weight: 500;
+}
+
+.ben p {
+    font-size: 3rem;
+    color: var(--neutral-white);
+    line-height: 1.4;
+    font-family: var(--font-IbmSerif);
+}
+
+.ben span {
+    font-size: 2.5rem;
+    color: var(--SecondaryColor);
+}
+
+.btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 7rem;
+    background: transparent;
+}
+
+.btn2 button { 
+    font-size: 2.5rem;
+    color: var(--neutral-white);
+    font-weight: 700;
+    background: var(--PrimaryColor);
+    padding: 1.5rem 3.5rem;
+    font-family: var(--font-Inter);
+    border-radius: .6rem;
+    transition: all .30s ease-in-out ;
+}
+
+.btn2 button:hover {
+    transform: scale(1.1);
+    background: var(--neutral-white);
+    color: var(--PrimaryColor);
+}
+
+ion-icon {
+  font-size: 3.2rem;
+}
+
+
+.btn2 .btn2__icon {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background: transparent;
+    margin-right: 4rem;
+}
+
+.btn2 .btn2__icon img {
+    width: 7rem;
+}
+/* fin du traitement du banner */
+
+
+
